@@ -1,0 +1,28 @@
+🔍 Overview
+This is a responsive and stylish single-page portfolio built using HTML and CSS, with a green-on-black theme that gives it a hacker-themed appearance. It includes sections for:
+
+Projects with descriptions and GitHub links
+
+Certifications with clickable verification links
+
+Skills listed in a visually appealing layout
+
+Academic qualifications
+
+Contact information and social media links
+
+🚀 Features
+Modern dark UI with Matrix-inspired green text
+
+Project and certificate listing with structured layouts
+
+Responsive design with basic flexbox usage
+
+Minimalist, fixed footer and semi-transparent panels
+
+Easy to update and expand with new content
+
+🛠️ Technologies Used
+HTML5
+
+CSS3 (including Flexbox)
