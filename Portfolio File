@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anshit Kashyap Portfolio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Set background to black */
+            color: #0F0; /* Set text color to green (Matrix style) */
+        }
+
+        header {
+            background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent header */
+            color: #0F0;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column; /* Arrange items vertically */
+            align-items: center; /* Center items horizontally */
+            justify-content: center;
+        }
+
+        header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px; /* Add some space below the image */
+            object-fit: cover;
+        }
+
+        header h1 {
+            margin-bottom: 5px; /* Add some space below the main title */
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black container */
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.3); /* Green glow effect */
+            color: #0F0;
+        }
+
+        .section-title {
+            color: #0F0;
+            border-bottom: 2px solid #0F0;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .project {
+            border: 1px solid #0F0;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        .project h3 {
+            margin-top: 0;
+            color: #0F0;
+        }
+
+        .certificate-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .certificate-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #0F0;
+            border-radius: 5px;
+        }
+
+        .certificate-item h4 {
+            margin-top: 0;
+            color: #0F0;
+        }
+
+        .certificate-link {
+            color: #0F0; /* Ensure link color is green */
+            text-decoration: underline; /* Optional: add underline for better visibility */
+        }
+
+        .skill-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-item {
+            background-color: #222;
+            color: #0F0;
+            padding: 8px 12px;
+            border-radius: 5px;
+            border: 1px solid #0F0;
+        }
+
+        .qualification-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .qualification-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #0F0;
+            border-radius: 5px;
+        }
+
+        .qualification-item h4 {
+            margin-top: 0;
+            color: #0F0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent footer */
+            color: #0F0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\hp\Downloads\self.jpg" alt="Your Photo">
+        <h1>Anshit Kashyap</h1>
+        <p>Passionate Cybersecurity Professional</p>
+    </header>
+
+    <div class="container">
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="project">
+                <h3>Project Title 1: The Shield</h3>
+                <p><strong>Description:</strong> This project is a conceptual web-based dashboard designed to visualize and monitor application security threats. It simulates the detection and display of security-related events, such as potential SQL injection and Cross-Site Scripting (XSS) attacks, against web applications.</p>
+                <p><strong>Features:</strong> Simulate Log Parsing, Threat Analysis, and Data Aggregation.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript, and chart.js</p>
+                <p><a href="https://github.com/Anshitk09/Application-Security-Dashboard">GitHub Repository</a></p>
+            </div>
+
+            <div class="project">
+                <h3>Project Title 2: Identity-Verification</h3>
+                <p><strong>Description:</strong> This project creates a platform that allows users to verify their identity securely without relying on central authorities. This can enhance privacy and reduce identity theft.</p>
+                <p><strong>Technologies:</strong> C++</p>
+                <p><a href="#">GitHub Repository</a></p>
+            </div>
+
+        </section>
+
+        <section id="certificates">
+            <h2 class="section-title">Certificates</h2>
+            <ul class="certificate-list">
+                <li class="certificate-item">
+                    <h4><a href="https://www.coursera.org/account/accomplishments/verify/R6P2TKLWK46Y" class="certificate-link">Cyber Security in Manufacturing </a></h4>
+                    <p>Issuing Organization: Coursera</p>
+                    <p>Date of Issue:<ctrl3348> Feb 2024</p>
+                    </li>
+                <li class="certificate-item">
+                    <h4><a href="https://www.linkedin.com/learning/certificates/47d35fd83a8ef76c792e7d4d88b9dc9fb0d8fff7a5e0126e46407d862905d881?trk=share_certificate" class="certificate-link">Introduction Cyber Security</a></h4>
+                    <p>Issuing Organization: LinkedIn</p>
+                    <p>Date of Issue:<ctrl3348> Mar 2021</p>
+                    </li>
+                </ul>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skill-list">
+                <li class="skill-item">Penetration Testing</li>
+                <li class="skill-item">Vulnerability Assessment</li>
+                <li class="skill-item">Network Security</li>
+                <li class="skill-item">Web Application Security</li>
+                <li class="skill-item">Incident Response</li>
+                <li class="skill-item">Digital Forensics</li>
+                <li class="skill-item">Risk Management</li>
+                <li class="skill-item">Python</li>
+                <li class="skill-item">Security Information and Event Management (SIEM)</li>
+            </ul>
+        </section>
+
+        <section id="qualifications">
+            <h2 class="section-title">Qualifications</h2>
+            <ul class="qualification-list">
+                <li class="qualification-item">
+                    <h4>B.Tech CSE</h4>
+                    <p>Lovely Professional University</p>
+                    <p>Year of Completion: 2026<ctrl3348></p>
+                    </li>
+                <li class="qualification-item">
+                    <h4>Intermediate</h4>
+                    <p>Army Public School, Jalandhar Cantt</p>
+                    <p>Year of Completion:<ctrl3348></p>
+                    </li>
+                 <li class="qualification-item">
+                    <h4>High School</h4>
+                    <p>Army Public School, Dinjan</p>
+                    <p>Year of Completion: 2020<ctrl3348></p>
+                    </li>
+                </ul>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Contact</h2>
+            <p>Email: 12banshit.38363@gmail.com</p>
+            <p>Phone no: +91 9198558829</p>
+            <p>Follow me @ <a href="https://www.linkedin.com/in/anshit-kashyap/">LinkedIn</a></p>
+            <p>View me @ <a href="https://github.com/Anshitk09">GitHub</a></p>
+            <p>Chat @ <a href="https://www.instagram.com/anshit_k09/">Instagram</a></p><br><br>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Anshit Kashyap</p>
+    </footer>
+</body>
+</html>
+
+
+
+//To view my portfolio, save this code in your local machine as "anshit_kashyap_portfolio.html"  and run the created webpage in your browser.
